@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AetherVPN</string>
+    <string name="quick_connect">Aether Connect</string>
+    <string name="quick_connect_connected">Protected</string>
+    <string name="quick_connect_connecting">Engaging\u2026</string>
+    <string name="quick_connect_disconnected">Unprotected</string>
+    <string name="quick_connect_widget_desc">AetherVPN Instant Shield Widget</string>
+</resources>
