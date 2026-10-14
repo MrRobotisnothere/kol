@@ -38,9 +38,6 @@ jobs:
       - name: Install Android NDK
         run: sdkmanager "ndk;26.1.10909125"
 
-      # Add SIGNING_KEYSTORE_BASE64, SIGNING_STORE_PASSWORD,
-      # SIGNING_KEY_PASSWORD and SIGNING_KEY_ALIAS repository secrets to keep
-      # one stable signing identity across releases. A temporary key is used otherwise.
       - name: Configure APK signing key
         env:
           KEYSTORE_BASE64: ${{ secrets.SIGNING_KEYSTORE_BASE64 }}
