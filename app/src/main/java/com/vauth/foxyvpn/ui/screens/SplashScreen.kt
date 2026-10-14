@@ -15,9 +15,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.text.font.FontWeight
 import com.vauth.foxyvpn.data.FxaAuthRepository
 import com.vauth.foxyvpn.data.SessionStatus
 import kotlinx.coroutines.delay
@@ -52,8 +52,7 @@ fun SplashScreen(
                 modifier = Modifier.padding(bottom = 16.dp),
                 tint = MaterialTheme.colorScheme.primary,
             )
-            Text("AetherVPN", fontSize = 32.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
-            Text("Universe Edition", fontSize = 14.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text("AetherVPN", fontSize = 28.sp, color = MaterialTheme.colorScheme.onSurface)
             CircularProgressIndicator(
                 modifier = Modifier
                     .padding(top = 24.dp)

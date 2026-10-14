@@ -4,15 +4,15 @@ import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 
 // AetherVPN – Deep Space + Aurora palette (Universe Edition)
-val NeonCyan = Color(0xFF00E5FF)      // Electric aurora cyan
-val NeonPurple = Color(0xFFB388FF)    // Soft nebula purple
-val NeonMagenta = Color(0xFFFF4081)   // Cosmic magenta
-val NeonBlue = Color(0xFF448AFF)      // Starlight blue
-val DeepBg = Color(0xFF05070D)        // True void black
-val DeepSurface = Color(0xFF0C1018)   // Near-black surface
-val CardSurface = Color(0xFF141A24)   // Elevated card
+val NeonCyan = Color(0xFF00E5FF)
+val NeonPurple = Color(0xFFB388FF)
+val NeonMagenta = Color(0xFFFF4081)
+val NeonBlue = Color(0xFF448AFF)
+val DeepBg = Color(0xFF05070D)
+val DeepSurface = Color(0xFF0C1018)
+val CardSurface = Color(0xFF141A24)
 val CardSurfaceElevated = Color(0xFF1C2433)
-val SoftWhite = Color(0xFFF0F4FF)     // Soft starlight
+val SoftWhite = Color(0xFFF0F4FF)
 val MutedGray = Color(0xFF8A94A8)
 
 val md_theme_light_primary = Color(0xFF5B2EFF)

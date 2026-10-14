@@ -132,7 +132,7 @@ fun HomeScreen(
                         Text(
                             "AetherVPN",
                             fontWeight = FontWeight.Bold,
-                            letterSpacing = 1.sp,
+                            letterSpacing = 0.5.sp,
                         )
                     }
                 },
